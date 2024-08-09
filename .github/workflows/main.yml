@@ -28,4 +28,4 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
-          tags: nope/again4:latest
+          tags: again4/node:latest

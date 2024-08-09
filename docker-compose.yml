@@ -11,6 +11,5 @@ services:
       - frontend
 
   frontend:
-    build:
-      context: ./frontend
-
+    image: again4/node:latest
+   

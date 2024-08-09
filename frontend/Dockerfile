@@ -1,4 +1,4 @@
-FROM alpine AS build
+FROM node:21-alpine AS build
 
 RUN apk add --update npm
 WORKDIR /app

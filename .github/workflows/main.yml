@@ -26,5 +26,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
+          file: ./frontend/Dockerfile
           push: true
-          tags: user/app:latest
+          tags: nope/again4:latest

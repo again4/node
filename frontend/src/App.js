@@ -5,7 +5,7 @@ function App() {
   const [teams, setTeams] = useState([
     { name: 'FC Barcelona', founded: 1899 },
     { name: 'Real Madrid', founded: 1902 },
-    { name: 'Liverpool', founded: 990 },
+    { name: 'Liverpool', founded: 980 },
   ]);
 
   const [matches, setMatches] = useState([

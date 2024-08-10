@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 
 services:
   nginx:
@@ -12,4 +12,4 @@ services:
 
   frontend:
     image: again4/node:latest
-   
+    pull_policy: always

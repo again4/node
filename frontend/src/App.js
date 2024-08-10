@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   const [teams, setTeams] = useState([
-    { name: 'FC Barcelona', founded: 1899 },
+    { name: 'FC Shacktar', founded: 1899 },
     { name: 'Real Madrid', founded: 1902 },
-    { name: 'Liverpool', founded: 980 },
+    { name: 'Liverpool', founded: 1001 },
   ]);
 
   const [matches, setMatches] = useState([
